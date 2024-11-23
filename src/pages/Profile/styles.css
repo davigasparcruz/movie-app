@@ -1,0 +1,56 @@
+.profile-wrapper {
+  display: flex;
+  gap: 48px
+}
+
+.profile-aside {
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.profile-aside nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+
+  a {
+    width: 100%;
+  }
+}
+
+.profile-nav-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: #F5CE4C;
+  border-radius: 999px;
+  margin-bottom: 30px;
+}
+
+.profile-nav-image img {
+  width: 40px;
+  height: 40px;
+}
+
+.separator {
+  width: 1px;
+  height: 70vh;
+  background: #000;
+}
+
+.profile-form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.profile-form-button-submit {
+  width: fit-content;
+}
